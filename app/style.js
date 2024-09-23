@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#f2f2f2",
+    backgroundColor: "#f2f2f2", // Cor de fundo padrão
   },
   heartRateTitleWrapper: {
     flex: 1,
@@ -94,6 +94,32 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     textAlign: "center",
   },
+
+  // Estilos adicionados para os botões "Imersão" e "Escutar Playlist"
+  buttonWrapper: {
+    flexDirection: "row",
+    justifyContent: "space-around",
+    marginTop: 20,
+    paddingHorizontal: 20, // Para espaçamento lateral
+  },
+  secondaryButton: {
+    backgroundColor: "#b388ff", // Cor de fundo similar ao roxo claro
+    padding: 15,
+    borderRadius: 10,
+    shadowColor: "#000",
+    shadowOffset: { width: 2, height: 2 },
+    shadowOpacity: 0.5,
+    shadowRadius: 2,
+    width: "40%", // Define o tamanho do botão
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  secondaryButtonText: {
+    color: "#000", // Cor preta para o texto
+    fontSize: 18,
+    fontWeight: "bold",
+  },
 });
 
 export default styles;
+

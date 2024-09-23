@@ -10,7 +10,7 @@ import useBLE from "../useBLE";
 import HeartRateAlert from "./HeartRateAlert"; // Importando o alerta
 import styles from "./style"; // Importando os estilos
 
-const App = () => {
+const MainApp = () => {
   const {
     requestPermissions,
     scanForPeripherals,
@@ -74,4 +74,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default MainApp;
