@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { View, Text, TouchableOpacity, Alert } from "react-native";
-import styles from "./style"; // Importando os estilos
+import styles from "../style"; // Importando os estilos
 import { authenticateWithSpotify, playSpotifyPlaylist } from "./spotifyAuth"; // Importando as funções de autenticação
 
 const HeartRateAlert = () => {

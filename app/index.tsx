@@ -5,10 +5,10 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
-import DeviceModal from "./DeviceConnectionModal";
+import DeviceModal from "./components/DeviceConnectionModal";
 import useBLE from "../useBLE";
-import HeartRateAlert from "./HeartRateAlert"; // Importando o alerta
-import styles from "./style"; // Importando os estilos
+import HeartRateAlert from "./components/HeartRateAlert"; // Importando o alerta
+import styles from "./style.js"; // Importando os estilos
 
 const MainApp = () => {
   const {
